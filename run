@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -x
+
 REQUIREMENTS="/sbin/ip /usr/bin/slirp-fullbolt"
 for R in $REQUIREMENTS
 do
